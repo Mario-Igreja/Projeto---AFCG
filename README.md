@@ -61,7 +61,7 @@ A hipótese é uma suposição informada sobre como o aplicativo resolverá a pr
 
 ## Equipe de Desenvolvimento
 
-- Mário Igreja      20220672
-- Alfredo S.L Bumba 20221435
+- Mário Igreja  ID Student:20220672
+- Alfredo Bumba  ID Student:20221435
 
 Este aplicativo tem o potencial de oferecer aos usuários uma ferramenta versátil que aborda suas necessidades de saúde física e financeira de maneira integrada e envolvente. Acreditamos que essa combinação de funcionalidades pode ser altamente valiosa para os usuários e estamos entusiasmados em continuar desenvolvendo este projeto.
