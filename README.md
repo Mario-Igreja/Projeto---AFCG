@@ -33,35 +33,41 @@ A hipótese é uma suposição informada sobre como o aplicativo resolverá a pr
 
 ## Funcionalidades Principais
 
-### Rastreamento de Atividade Física
-
-- Os usuários podem monitorar uma variedade de atividades físicas, como corrida, caminhada, ciclismo, etc.
-- O aplicativo utiliza o acelerômetro e o GPS do smartphone para registrar dados de atividade, incluindo distância percorrida, tempo gasto e calorias queimadas.
-- Elementos de gamificação, como desafios diários, conquistas e recompensas, incentivam os usuários a se exercitarem regularmente.
-- Integração com dispositivos de saúde para obter dados precisos.
-
-### Análise de Compras
-
-- Os usuários podem escanear códigos de barras de produtos enquanto fazem compras.
-- O aplicativo consulta um banco de dados para fornecer informações detalhadas sobre os produtos, incluindo preço, descrição, avaliações e opções de lojas.
-- Algoritmos de matemática discreta comparam preços, oferecem recomendações de produtos com base nas preferências do usuário e sugerem ofertas e descontos.
-- Registra histórico de compras para análises futuras.
-
-### Personalização e Metas
-
-- Os usuários podem definir metas pessoais, como objetivos de gastos financeiros e metas de fitness.
-- O aplicativo oferece insights sobre como economizar dinheiro, escolher produtos mais saudáveis e atingir metas de saúde.
-- Recompensas por atingir metas, como descontos em produtos ou vouchers para academias locais.
-
-### Compartilhamento Social
-
-- Os usuários podem compartilhar suas conquistas de fitness e dicas de compras com amigos por meio das redes sociais.
-- Cria uma comunidade de apoio e incentiva a competição saudável entre os usuários.
+ 1. **Rastreamento de Alimentos**: Permite que os usuários registrem suas refeições, lanches e bebidas, acompanhando a ingestão de calorias, proteínas, carboidratos, gorduras e outros nutrientes.
+ 
+ 2. **Banco de Dados de Alimentos**: Oferece um extenso banco de dados de alimentos, incluindo informações nutricionais para facilitar o registro preciso.
+ 
+ 3. **Planejamento de Refeições**: Ajuda os usuários a criar planos de refeições saudáveis com base em seus objetivos, restrições alimentares e preferências.
+ 
+ 4. **Contagem de Calorias**: Calcula automaticamente a quantidade de calorias necessárias com base nos objetivos do usuário, como perda de peso, manutenção ou ganho muscular.
+ 
+ 5. **Rastreamento de Exercícios**: Permite que os usuários registrem seus exercícios físicos, incluindo cardio, musculação e outras atividades, acompanhando a queima de calorias.
+ 
+ 6. **Programas de Treinamento**: Oferece programas de treinamento personalizados com exercícios e rotinas adaptadas aos objetivos e nível de condicionamento físico do usuário.
+ 
+ 7. **Lembretes e Notificações**: Envia lembretes para refeições, exercícios e hidratação, mantendo os usuários na linha com seus planos.
+ 
+ 8. **Monitoramento de Peso e Progresso**: Permite que os usuários registrem seu peso e medidas corporais ao longo do tempo para acompanhar seu progresso.
+ 
+ 9. **Integração de Dispositivos Wearables**: Sincroniza-se com dispositivos como smartwatches e rastreadores de atividade para coletar dados de exercícios e saúde em tempo real.
+ 
+ 10. **Receitas Saudáveis**: Fornecer uma variedade de receitas saudáveis e personalizáveis, com informações nutricionais detalhadas.
+ 
+ 11. **Comunidade e Suporte**: Oferece um espaço para interação com outros usuários, compartilhamento de dicas e motivação, bem como acesso a suporte de especialistas em nutrição e fitness.
+ 
+ 12. **Gráficos e Relatórios de Progresso**: Apresenta gráficos e relatórios visuais para que os usuários possam ver seu progresso ao longo do tempo.
+ 
+ 13. **Educação em Nutrição e Exercício**: Oferece artigos, vídeos e recursos educacionais sobre nutrição, fitness e bem-estar.
+ 
+ 14. **Lembrete de Suplementos**: Permite que os usuários configurem lembretes para tomar suplementos ou medicamentos, se aplicável.
+ 
+ 15. **Personalização**: Possibilita a personalização de metas, preferências alimentares e planos de treinamento.
 
 
 ## Equipe de Desenvolvimento
 
-- Mário Igreja  ID Student:20220672
-- Alfredo Bumba  ID Student:20221435
+- Mário Igreja      20220672
+- Alfredo S.L Bumba 20221435
 
 Este aplicativo tem o potencial de oferecer aos usuários uma ferramenta versátil que aborda suas necessidades de saúde física e financeira de maneira integrada e envolvente. Acreditamos que essa combinação de funcionalidades pode ser altamente valiosa para os usuários e estamos entusiasmados em continuar desenvolvendo este projeto.
+
