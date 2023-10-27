@@ -1,10 +1,10 @@
 # LEI-ProjetoMobile-semestre3
 Projecto Mobile:
-# Aplicativo de Fitness e Compras com Gamificação
+# Aplicativo de Fitness e Compras 
 
 ## Visão Geral do Projeto
 
-O aplicativo de Fitness e Compras com Gamificação é uma plataforma multifuncional que combina rastreamento de atividade física, análise de compras e elementos de gamificação para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física e financeira de forma integrada, tornando o processo de monitoramento de atividades físicas e análise de compras mais envolvente e motivador.
+O aplicativo de Fitness e Compras com Gamificação é uma plataforma multifuncional que combina rastreamento de atividade física, análise de compras para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física e financeira de forma integrada, tornando o processo de monitoramento de atividades físicas e análise de compras mais envolvente e motivador.
 
 
 ## Problemática:
@@ -14,19 +14,18 @@ Muitas pessoas enfrentam dificuldades em manter um estilo de vida saudável e fi
 
 **Problemas Secundários**:
 - Os usuários têm dificuldade em rastrear e analisar suas atividades físicas e compras de forma integrada.
-- A falta de feedback e recompensas desestimula o cumprimento de metas de saúde e finanças.
+- A falta de feedback desestimula o cumprimento de metas de saúde e finanças.
 - Tomar decisões informadas sobre compras saudáveis e orçamento é complicado.
-- Os aplicativos existentes não oferecem uma solução completa que combine rastreamento de atividades físicas, análise de compras e elementos de gamificação.
+- Os aplicativos existentes não oferecem uma solução completa que combine rastreamento de atividades físicas, análise de compras.
 
 ## Hipótese:
 
 **Hipótese Principal**:
-Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de compras e gamificação, podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
+Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de compras , podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
 
 **Hipóteses Secundárias**:
-- A gamificação incentivará os usuários a se exercitarem regularmente e a acompanharem suas atividades físicas de forma consistente.
 - A análise de compras ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro.
-- A personalização das metas e recompensas aumentará a participação dos usuários e os manterá engajados com o aplicativo.
+- A personalização das metas aumentará a participação dos usuários e os manterá engajados com o aplicativo.
 - Ao oferecer uma solução completa que atenda às necessidades de saúde física e finanças pessoais, poderemos atrair um público mais amplo e engajado.
 
 A hipótese é uma suposição informada sobre como o aplicativo resolverá a problemática identificada. Ela servirá como base para o desenvolvimento e os testes do aplicativo. Ao longo do projeto, será importante coletar dados e feedback dos usuários para validar ou refutar essas hipóteses e fazer ajustes no aplicativo conforme necessário.
