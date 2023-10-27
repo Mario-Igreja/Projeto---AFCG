@@ -4,7 +4,7 @@ Projecto Mobile:
 
 ## Visão Geral do Projeto
 
-O aplicativo de Fitness e Compras com Gamificação é uma plataforma multifuncional que combina rastreamento de atividade física, análise de compras para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física e financeira de forma integrada, tornando o processo de monitoramento de atividades físicas e análise de compras mais envolvente e motivador.
+O aplicativo de Fitness é uma plataforma multifuncional que combina rastreamento de atividade física, análise de alimentos para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física e financeira de forma integrada, tornando o processo de monitoramento de atividades físicas e análise de compras mais envolvente e motivador.
 
 
 ## Problemática:
@@ -24,7 +24,7 @@ Muitas pessoas enfrentam dificuldades em manter um estilo de vida saudável e fi
 Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de compras , podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
 
 **Hipóteses Secundárias**:
-- A análise de compras ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro.
+- A análise de alimentos ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro.
 - A personalização das metas aumentará a participação dos usuários e os manterá engajados com o aplicativo.
 - Ao oferecer uma solução completa que atenda às necessidades de saúde física e finanças pessoais, poderemos atrair um público mais amplo e engajado.
 
