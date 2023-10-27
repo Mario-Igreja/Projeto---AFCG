@@ -49,21 +49,24 @@ A hipótese é uma suposição informada sobre como o aplicativo resolverá a pr
  
  8. **Monitoramento de Peso e Progresso**: Permite que os usuários registrem seu peso e medidas corporais ao longo do tempo para acompanhar seu progresso.
  
- 9. **Integração de Dispositivos Wearables**: Sincroniza-se com dispositivos como smartwatches e rastreadores de atividade para coletar dados de exercícios e saúde em tempo real.
+ 9. **Gráficos e Relatórios de Progresso**: Apresenta gráficos e relatórios visuais para que os usuários possam ver seu progresso ao longo do tempo.
+     
+ 10. **Lembrete de Suplementos**: Permite que os usuários configurem lembretes para tomar suplementos ou medicamentos, se aplicável.
  
- 10. **Receitas Saudáveis**: Fornecer uma variedade de receitas saudáveis e personalizáveis, com informações nutricionais detalhadas.
- 
- 11. **Comunidade e Suporte**: Oferece um espaço para interação com outros usuários, compartilhamento de dicas e motivação, bem como acesso a suporte de especialistas em nutrição e fitness.
- 
- 12. **Gráficos e Relatórios de Progresso**: Apresenta gráficos e relatórios visuais para que os usuários possam ver seu progresso ao longo do tempo.
- 
- 13. **Educação em Nutrição e Exercício**: Oferece artigos, vídeos e recursos educacionais sobre nutrição, fitness e bem-estar.
- 
- 14. **Lembrete de Suplementos**: Permite que os usuários configurem lembretes para tomar suplementos ou medicamentos, se aplicável.
- 
- 15. **Personalização**: Possibilita a personalização de metas, preferências alimentares e planos de treinamento.
 
+     
+## Funcionalidades Secundárias
 
+ 1. **Educação em Nutrição e Exercício**: Oferece artigos, vídeos e recursos educacionais sobre nutrição, fitness e bem-estar.
+     
+ 2. **Personalização**: Possibilita a personalização de metas, preferências alimentares e planos de treinamento.
+     
+ 3. **Comunidade de Suporte**: Oferece um espaço para interação com outros usuários, compartilhamento de dicas e motivação, bem como acesso a suporte de especialistas em nutrição e fitness.
+     
+ 4. **Integração de Dispositivos Wearables**: Sincroniza-se com dispositivos como smartwatches e rastreadores de atividade para coletar dados de exercícios e saúde em tempo real.
+     
+ 5. **Receitas Saudáveis**: Fornecer uma variedade de receitas saudáveis e personalizáveis, com informações nutricionais detalhadas.
+     
 ## Equipe de Desenvolvimento
 
 - Mário Igreja      20220672
