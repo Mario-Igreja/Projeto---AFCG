@@ -7,6 +7,16 @@
     android:padding="20dp"
     tools:context=".RegisterActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="214dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/fitvida"/>
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -20,21 +30,11 @@
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="214dp"
-        android:layout_height="178dp"
-        android:layout_marginTop="120dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/logo_image" />
-
 
     <EditText
         android:id="@+id/editText_user_name"
         android:layout_width="285dp"
-        android:layout_height="45dp"
+        android:layout_height="60dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="User name"
@@ -47,11 +47,11 @@
     <EditText
         android:id="@+id/editText_email"
         android:layout_width="285dp"
-        android:layout_height="45dp"
+        android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="Email"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/editText_user_name"
         app:layout_constraintStart_toStartOf="@+id/editText_user_name"
         app:layout_constraintTop_toBottomOf="@+id/editText_user_name" />
@@ -59,7 +59,7 @@
     <EditText
         android:id="@+id/editText_Password"
         android:layout_width="285dp"
-        android:layout_height="45dp"
+        android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Password"
@@ -80,6 +80,7 @@
         app:backgroundTint="#2B2C4D"
         app:layout_constraintEnd_toEndOf="@+id/editText_Password"
         app:layout_constraintStart_toStartOf="@+id/editText_Password"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Password" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
+        android:onClick="startHome"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
