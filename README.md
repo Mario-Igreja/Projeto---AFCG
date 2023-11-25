@@ -1,6 +1,6 @@
 # LEI-ProjetoMobile-semestre3
 Projecto Mobile:
-# Aplicativo de Fitness e Compras 
+# FitMe 
 
 ## Visão Geral do Projeto
 
