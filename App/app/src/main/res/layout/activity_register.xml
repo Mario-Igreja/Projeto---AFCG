@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     tools:context=".RegisterActivity">
 
     <ImageView
@@ -12,17 +11,17 @@
         android:layout_width="214dp"
         android:layout_height="178dp"
         android:layout_marginTop="80dp"
+        android:src="@drawable/fitme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/fitvida"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Registe-se"
+        android:text="Registro"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -31,56 +30,49 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 
-    <EditText
-        android:id="@+id/editText_user_name"
-        android:layout_width="285dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="30dp"
-        android:ems="10"
-        android:hint="User name"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <FrameLayout
+        android:id="@+id/register_frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/previus_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
 
-    <EditText
-        android:id="@+id/editText_email"
-        android:layout_width="285dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editText_user_name"
-        app:layout_constraintStart_toStartOf="@+id/editText_user_name"
-        app:layout_constraintTop_toBottomOf="@+id/editText_user_name" />
-
-    <EditText
-        android:id="@+id/editText_Password"
-        android:layout_width="285dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="text|textCapWords"
-        app:layout_constraintEnd_toEndOf="@+id/editText_email"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/editText_email"
-        app:layout_constraintTop_toBottomOf="@+id/editText_email" />
+    </FrameLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/register_button"
         android:layout_width="285dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-        android:text="Next"
+        android:layout_marginBottom="80dp"
+        android:onClick="startHome"
+        android:text="Registar"
         android:textSize="20sp"
         android:textStyle="bold"
         app:backgroundTint="#2B2C4D"
-        app:layout_constraintEnd_toEndOf="@+id/editText_Password"
-        app:layout_constraintStart_toStartOf="@+id/editText_Password"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Password"
-        android:onClick="startHome"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/register_frame_layout"
+        app:layout_constraintStart_toStartOf="@+id/register_frame_layout" />
+
+    <ImageView
+        android:id="@+id/previus_button"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        app:layout_constraintStart_toStartOf="@+id/register_button"
+        app:srcCompat="@drawable/back_icon" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
+        app:layout_constraintEnd_toEndOf="@+id/register_button"
+        app:srcCompat="@drawable/next_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,10 +13,14 @@
         android:theme="@style/Theme.FitVida"
         tools:targetApi="31">
         <activity
+
+            android:name="._user_infoActivity"
+
             android:name=".Nutricao"
             android:exported="false" />
         <activity
             android:name=".Nutriçao"
+
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
