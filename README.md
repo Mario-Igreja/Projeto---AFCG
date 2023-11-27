@@ -1,10 +1,13 @@
 # LEI-ProjetoMobile-semestre3
 Projecto Mobile:
-# FITME
+
+
+# FitMe 
+
 
 ## Visão Geral do Projeto
 
-O aplicativo de Fitness é uma plataforma multifuncional que combina rastreamento de atividade física, análise de alimentos para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física e financeira de forma integrada, tornando o processo de monitoramento de atividades físicas e análise de compras mais envolvente e motivador.
+O aplicativo de Fitness é uma plataforma multifuncional que combina rastreamento de atividade física, análise de alimentos para oferecer uma experiência única aos usuários. O objetivo principal é ajudar os usuários a cuidar de sua saúde física de forma integrada, tornando o processo de monitoramento de atividades físicas e compras mais envolvente e motivador.
 
 
 ## Problemática:
@@ -16,15 +19,18 @@ Muitas pessoas enfrentam dificuldades em manter um estilo de vida saudável e fi
 - Os usuários têm dificuldade em rastrear e analisar suas atividades físicas e compras de forma integrada.
 - A falta de feedback desestimula o cumprimento de metas de saúde e finanças.
 - Tomar decisões informadas sobre compras saudáveis e orçamento é complicado.
-- Os aplicativos existentes não oferecem uma solução completa que combine rastreamento de atividades físicas, análise de compras.
+- Os aplicativos existentes não oferecem uma solução completa que combine rastreamento de atividades físicas, e compras.
 
 ## Hipótese:
 
 **Hipótese Principal**:
+
 Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de produtos alimentares, podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
 
+
+
 **Hipóteses Secundárias**:
-- A análise de alimentos ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro.
+- A análise de alimentos ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro (informando os produtos certos para um determinado resultado, isto ajuda a nível físico e financeiro).
 - A personalização das metas aumentará a participação dos usuários e os manterá engajados com o aplicativo.
 - Ao oferecer uma solução completa que atenda às necessidades de saúde física e finanças pessoais, poderemos atrair um público mais amplo e engajado.
 
