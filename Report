@@ -2,7 +2,8 @@
 
 
 
-![Descrição da Imagem](Users\georg\Documents\PROJETO\Projeto---AFCG/Modelo_entidade-relação.png)
+![Descrição da Imagem]
+(C:\Users\georg\Documents\PROJETO\Projeto---AFCG/Modelo_entidade-relação.png)
 
 Essas tabelas e as restrições de chave estrangeira (foreign keys) definem um esquema de banco de dados relacional que parece estar relacionado a um sistema de gerenciamento de exercícios, planos de treino, receitas e usuários. Vamos analisar cada tabela e suas respectivas colunas, além das relações entre elas.
 
