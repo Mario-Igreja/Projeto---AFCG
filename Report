@@ -1,0 +1,75 @@
+
+
+
+
+![Descrição da Imagem](Users\georg\Documents\PROJETO\Projeto---AFCG/Modelo_entidade-relação.png)
+
+Essas tabelas e as restrições de chave estrangeira (foreign keys) definem um esquema de banco de dados relacional que parece estar relacionado a um sistema de gerenciamento de exercícios, planos de treino, receitas e usuários. Vamos analisar cada tabela e suas respectivas colunas, além das relações entre elas.
+
+1. **Tabela de Tipo de Exercício (`tipo_exercicio`):**
+   - `tipex_id` (Chave primária): Identificador único para o tipo de exercício.
+   - `tipex_nome`: Nome do tipo de exercício.
+
+2. **Tabela de Exercícios (`exercicios`):**
+   - `exe_id` (Chave primária): Identificador único para o exercício.
+   - `exe_nome`: Nome do exercício.
+   - `exe_tipex_id` (Chave estrangeira referenciando `tipo_exercicio.tipex_id`): Relaciona o exercício ao tipo de exercício.
+
+3. **Tabela de Sessão (`sessao`):**
+   - `ses_id` (Chave primária): Identificador único para a sessão.
+   - `ses_nome`: Nome da sessão.
+
+4. **Tabela de Plano (`plano`):**
+   - `pla_id` (Chave primária): Identificador único para o plano.
+   - `pla_nome`: Nome do plano.
+
+5. **Tabela de Usuário (`usuario`):**
+   - `usu_id` (Chave primária): Identificador único para o usuário.
+   - `usu_nome`: Nome do usuário.
+   - `usu_email`: Endereço de e-mail do usuário.
+   - `usu_senha`: Senha do usuário.
+   - `usu_genero`: Gênero do usuário (Masculino, Feminino, Outro).
+   - `usu_altura`: Altura do usuário.
+   - `usu_peso`: Peso do usuário.
+
+6. **Tabela de Plano do Usuário (`plano_usuario`):**
+   - `plaus_id` (Chave primária): Identificador único para a associação entre plano e usuário.
+   - `plaus_usu_id` (Chave estrangeira referenciando `usuario.usu_id`): Relaciona a associação ao usuário.
+   - `plaus_pla_id` (Chave estrangeira referenciando `plano.pla_id`): Relaciona a associação ao plano.
+
+7. **Tabela de Sessão de Exercícios (`sessao_exercicios`):**
+   - `sesexer_id` (Chave primária): Identificador único para a sessão de exercícios.
+   - `sesexer_ses_id` (Chave estrangeira referenciando `sessao.ses_id`): Relaciona a sessão de exercícios à sessão.
+   - `sesexer_exe_id` (Chave estrangeira referenciando `exercicios.exe_id`): Relaciona a sessão de exercícios ao exercício.
+   - `sesexer_calorias`: Valor decimal representando as calorias queimadas.
+   - `sesexer_carga`: Valor inteiro representando a carga do exercício.
+   - `sesexer_numero_ordem`: Número de ordem do exercício na sessão.
+   - `sesexer_numer_repeticoes`: Número de repetições do exercício na sessão.
+
+8. **Tabela de Sessão de Exercícios do Usuário (`sessao_exercicios_usuario`):**
+   - `sexeusu_id` (Chave primária): Identificador único para a sessão de exercícios do usuário.
+   - `sexeusu_sesexer_id` (Chave estrangeira referenciando `sessao_exercicios.sesexer_id`): Relaciona a sessão de exercícios do usuário à sessão de exercícios.
+   - `sexeusu_usu_id` (Chave estrangeira referenciando `usuario.usu_id`): Relaciona a sessão de exercícios do usuário ao usuário.
+   - `sexeusu_repeticoes_feitas`: Número de repetições feitas pelo usuário na sessão de exercícios.
+
+9. **Tabela de Receita (`receita`):**
+   - `re_id` (Chave primária): Identificador único para a receita.
+   - `re_nome`: Nome da receita.
+   - `re_calorias`: Valor decimal representando as calorias da receita.
+   - `re_carboidratos`: Valor decimal representando a quantidade de carboidratos da receita.
+   - `re_gordura`: Valor decimal representando a quantidade de gordura da receita.
+   - `re_proteinas`: Valor decimal representando a quantidade de proteínas da receita.
+
+10. **Tabela Receita Plano (`receita_plano`):**
+    - `repla_id` (Chave primária): Identificador único para a associação entre receita e plano.
+    - `repla_pla_id` (Chave estrangeira referenciando `plano.pla_id`): Relaciona a associação ao plano.
+    - `repla_re_id` (Chave estrangeira referenciando `receita.re_id`): Relaciona a associação à receita.
+
+11. **Tabela Tipo de Refeição (`tipo_refeicao`):**
+    - `tipref_id` (Chave primária): Identificador único para o tipo de refeição.
+    - `tipref_nome`: Nome do tipo de refeição.
+
+**Restrições de Chave Estrangeira:**
+- Estabelecem relações entre as tabelas, garantindo integridade referencial.
+- Definem como as ações de exclusão e atualização são tratadas (NO ACTION neste caso, o que significa que não há ações automáticas ao excluir ou atualizar registros nas tabelas referenciadas).
+
