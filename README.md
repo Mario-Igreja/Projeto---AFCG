@@ -1,6 +1,6 @@
 # LEI-ProjetoMobile-semestre3
 Projecto Mobile:
-# FITME
+# Aplicativo de Fitness e Compras 
 
 ## Visão Geral do Projeto
 
@@ -21,7 +21,7 @@ Muitas pessoas enfrentam dificuldades em manter um estilo de vida saudável e fi
 ## Hipótese:
 
 **Hipótese Principal**:
-Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de produtos alimentares, podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
+Desenvolvendo um aplicativo que integra rastreamento de atividade física, análise de compras , podemos melhorar a motivação dos usuários para manter um estilo de vida saudável e financeiramente equilibrado.
 
 **Hipóteses Secundárias**:
 - A análise de alimentos ajudará os usuários a fazerem escolhas mais informadas sobre seus gastos e a economizarem dinheiro.
