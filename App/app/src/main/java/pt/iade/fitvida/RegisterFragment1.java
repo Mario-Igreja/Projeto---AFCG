@@ -1,5 +1,6 @@
 package pt.iade.fitvida;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,18 +8,23 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.google.android.material.textfield.TextInputLayout;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link RegisterFragment1#newInstance} factory method to
+ * Use the {@link registerFragment2#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class RegisterFragment1 extends Fragment {
+class RegisterFragment1 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    static final String ARG_PARAM1 = "param1";
+    static final String ARG_PARAM2 = "param2";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -28,17 +34,8 @@ public class RegisterFragment1 extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment RegisterFragment1.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static RegisterFragment1 newInstance(String param1, String param2) {
-        RegisterFragment1 fragment = new RegisterFragment1();
+    public static registerFragment2 newInstance(String param1, String param2) {
+        registerFragment2 fragment = new registerFragment2();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -58,7 +55,39 @@ public class RegisterFragment1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_register1, container, false);
+        View view = inflater.inflate(R.layout.fragment_register2, container, false);
+
+        // Retrieving user inputs
+         TextInputLayout userNameLayout = view.findViewById(R.id.textInputLayout_user_name);
+          EditText userNameEditText = view.findViewById(R.id.editText_user_name);
+
+         DatePicker datePicker = view.findViewById(R.id.datePicker);
+
+      TextInputLayout heightLayout = view.findViewById(R.id.textInputLayout_height);
+          EditText heightEditText = view.findViewById(R.id.editText_height);
+
+
+
+           TextInputLayout weightLayout = view.findViewById(R.id.textInputLayout_weight);
+          EditText weightEditText = view.findViewById(R.id.editText_weight);
+
+        // Example: Retrieving data when a button is clicked
+        Button registerButton = view.findViewById(R.id.register_button);
+        registerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Retrieve user inputs
+                String userName = userNameEditText.getText().toString();
+                // Retrieve other inputs similarly
+
+                // Perform any additional processing or validation as needed
+                // ...
+
+                // Example: Displaying a toast message with the user's name
+                Toast.makeText(getActivity(), "User Name: " + userName, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        return view;
     }
 }

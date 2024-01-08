@@ -5,21 +5,26 @@
 
         <item
             android:id="@+id/action_plan"
-            android:icon="@drawable/treino"
-            android:title="Planos"
-            />
+            android:icon="@drawable/settings_heart"
+            android:title="" />
         <item
-            android:id="@+id/action_find_out"
-            android:icon="@drawable/health"
-            android:title="Descobrir"
-            />
+            android:id="@+id/action_trainer"
+            android:icon="@drawable/fitness"
+            android:title="" />
         <item
-        android:id="@+id/action_report"
-            android:icon="@drawable/estat"
-             android:title="Relatório"
-             />
+            android:id="@+id/action_home"
+            android:icon="@drawable/home"
+            android:title="" />
 
+        <item
+            android:id="@+id/action_recipes"
+            android:icon="@drawable/news"
+            android:title="" />
 
+        <item
+            android:id="@+id/action_review"
+            android:icon="@drawable/planner"
+            android:title="" />
 
 </menu>
 

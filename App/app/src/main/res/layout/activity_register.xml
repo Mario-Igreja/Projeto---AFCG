@@ -6,36 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="214dp"
-        android:layout_height="178dp"
-        android:layout_marginTop="80dp"
-        android:src="@drawable/fitme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Registro"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
 
     <FrameLayout
         android:id="@+id/register_frame_layout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/previus_button"
+        android:layout_width="410dp"
+        android:layout_height="570dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +22,7 @@
         android:id="@+id/register_button"
         android:layout_width="285dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="60dp"
         android:onClick="startHome"
         android:text="Registar"
         android:textSize="20sp"
@@ -55,7 +30,8 @@
         app:backgroundTint="#2B2C4D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/register_frame_layout"
-        app:layout_constraintStart_toStartOf="@+id/register_frame_layout" />
+        app:layout_constraintStart_toStartOf="@+id/register_frame_layout"
+        tools:ignore="OnClick" />
 
     <ImageView
         android:id="@+id/previus_button"
@@ -64,7 +40,7 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/register_button"
         app:layout_constraintStart_toStartOf="@+id/register_button"
-        app:srcCompat="@drawable/back_icon" />
+        app:srcCompat="@drawable/back" />
 
     <ImageView
         android:id="@+id/next_button"
@@ -73,6 +49,20 @@
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/register_button"
         app:layout_constraintEnd_toEndOf="@+id/register_button"
-        app:srcCompat="@drawable/next_icon" />
+        app:srcCompat="@drawable/forward" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:text="Preencha o formulário"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="134dp"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

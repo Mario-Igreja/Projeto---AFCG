@@ -2,4 +2,44 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Vermelho">#FF0000</color>
+    <color name="Verde">#00FF00</color>
+    <color name="Verde_Pálido">#98FB98</color>
+
+    <color name="Verde_Pastel">#77DD77</color>
+    <color name="Verde_Limão">#00FF00</color>
+
+    <color name="Verde_Bebê">#C1FFC1</color>
+    <color name="Verde_Abacate">#568203</color>
+
+    <color name="Azul">#0000FF</color>
+
+    <color name="Magenta">#FF00FF</color>
+    <color name="Ciano">#00FFFF</color>
+
+
+    <color name="Marrom">#A52A2A</color>
+    <color name="Laranja">#FFA500</color>
+    <color name="Dourado">#FFD700</color>
+    <color name="Amarelo">#FFFF00</color>
+    <color name="Rosa">#FFC0CB</color>
+    <color name="Violeta">#8A2BE2</color>
+    <color name="Turquesa">#40E0D0</color>
+
+
+    <color name="Cinza">#808080</color>
+    <color name="Cinza_médio">#808080</color>
+
+    <color name="Cinza_escuro">#555555</color>
+    <color name="Prata">#C0C0C0</color>
+
+
+    <color name="Branco_Puro">#FFFFFF</color>
+    <color name="Branco_Fumaça"> #F5F5F5</color>
+    <color name="Branco_Antigo"> #FAEBD7</color>
+    <color name="Branco_Floral"> #FFFAF0</color>
+    <color name="Branco_Marfim">#FFFFF0</color>
+    <color name="Branco_Navajo"> #FFDEAD</color>
+
+
 </resources>

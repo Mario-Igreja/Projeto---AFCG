@@ -8,7 +8,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 
 import pt.iade.fitvida.databinding.ActivityRegisterBinding;
 
@@ -25,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
         binding.nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                replaceFragment(new RegisterFragment2());
+                replaceFragment(new registerFragment2());
             }
         });
 
