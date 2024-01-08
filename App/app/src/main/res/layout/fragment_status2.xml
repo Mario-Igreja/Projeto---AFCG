@@ -1,0 +1,145 @@
+
+<!-- activity_dados_saude.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".status2"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="898dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewTempoSonoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/image_button_background"
+                android:text="Tempo de Sono:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewTempoSono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTempoSonoLabel"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-25dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textViewTempoSonoLabel"
+                android:text="7.5 horas"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewPassosDadosLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTempoSonoLabel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/image_button_background"
+                android:text="Passos Dados:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewPassosDados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewTempoSonoLabel"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textViewPassosDadosLabel"
+                android:text="10000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewValorEnergeticoTotalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPassosDadosLabel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/image_button_background"
+                android:text="Valor Energético Total:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewValorEnergeticoTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewPassosDadosLabel"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textViewValorEnergeticoTotalLabel"
+                android:text="2000.5 kcal"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewCaloriasQueimadasLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewValorEnergeticoTotalLabel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/image_button_background"
+                android:text="Calorias Queimadas:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewCaloriasQueimadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewValorEnergeticoTotalLabel"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textViewCaloriasQueimadasLabel"
+                android:text="500.75 kcal"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDesenvolvimentoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewCaloriasQueimadasLabel"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/image_button_background"
+                android:text="Desenvolvimento semanal:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDesenvolvimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewCaloriasQueimadasLabel"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toEndOf="@+id/textViewDesenvolvimentoLabel"
+                android:text="500.75 kcal"
+                android:textSize="18sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarTotal"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewDesenvolvimentoLabel"
+                android:layout_marginTop="32dp"
+                android:indeterminateTint="@color/white"
+                android:max="100"
+                android:progress="5"
+                android:progressTint="@color/black" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
