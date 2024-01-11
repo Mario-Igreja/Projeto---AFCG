@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="pt.iade.fitvida">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,50 +25,45 @@
         android:theme="@style/Theme.FitVida"
         tools:targetApi="31">
 
-        <activity
-            android:name=".fragment_review"
-            android:exported="false" />
-        <activity
-            android:name=".Nutricao"
-            android:exported="false" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
 
         <activity
-            android:name=".loading"
+            android:name="pt.iade.FitVida.fragment_review"
+            android:exported="false" />
+        <activity
+            android:name="pt.iade.FitVida.NutriFragment"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="pt.iade.FitVida.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="pt.iade.FitVida.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="pt.iade.FitVida.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="pt.iade.FitVida.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="pt.iade.FitVida.LoadingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="pt.iade.fitvida.passos"
+            android:name="pt.iade.FitVida.passos"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
-
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature
-        android:name="android.hardware.sensor.accelerometer"
-        android:required="true" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

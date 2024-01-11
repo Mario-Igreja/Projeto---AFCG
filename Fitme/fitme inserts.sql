@@ -1,9 +1,10 @@
 -- Inserir usuario
 INSERT INTO usuario (usu_nome, usu_email, usu_senha, usu_genero, usu_altura, usu_peso) 
 VALUES ('Nome do Usuário', 'email@dominio.com', 'senha', 'Masculino', 187.65, 87.65);
+INSERT INTO usuario (usu_nome, usu_email, usu_senha, usu_genero, usu_altura, usu_peso) 
+VALUES ('Nome do Usuário', 'email@dominio.com', 'senha', 'Feminino', 169.65, 68.65);
 
-
- -- Inserir tipos de alimentos
+ -- Inserir tipos de refeição
 INSERT INTO tipo_refeicao (tipref_nome) VALUES('Frutas');
 INSERT INTO tipo_refeicao (tipref_nome) VALUES('Vegetais');
 INSERT INTO tipo_refeicao (tipref_nome) VALUES('Proteínas');
@@ -504,33 +505,18 @@ VALUES
 (9, 68, 4.5, 3, NULL, 15);
 
 
+INSERT INTO fitme.sessao_exercicios (sesexer_ses_id, sesexer_exe_id, sesexer_calorias, sesexer_carga, sesexer_numero_ordem, sesexer_numer_repeticoes)
+VALUES (1, 2, 300.00, 15, 1, 10);
 
+INSERT INTO fitme.sessao_exercicios_usuario (sexeusu_sesexer_id, sexeusu_usu_id, sexeusu_repeticoes_feitas)
+VALUES (1, 1, 10);
 
+-- Inserir na tabela Plano
+INSERT INTO `fitme`.`plano` (`pla_id`, `pla_nome`) VALUES (1, 'treino'), (2, 'alimentação');
 
+-- Inserir na tabela Plano_usuario
+INSERT INTO plano_usuario (plaus_usu_id, plaus_pla_id)
+VALUES (1, 1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- Inserir na tabela receita_Plano
+INSERT INTO `fitme`.`receita_plano` (`repla_id`, `repla_pla_id`, `repla_re_id`) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 1);

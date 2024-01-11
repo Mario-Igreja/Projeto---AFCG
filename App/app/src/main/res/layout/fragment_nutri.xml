@@ -4,11 +4,11 @@
     android:id="@+id/framelayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Nutricao">
+    tools:context="pt.iade.FitVida.NutriFragment">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="850dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
@@ -24,16 +24,17 @@
                 android:layout_height="80dp"
                 android:paddingHorizontal="20dp"
                 android:paddingTop="10dp">
-
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout2"
+                    android:id="@+id/constraintLayout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
@@ -44,20 +45,21 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Semanas"
+                        android:text="Dias"
                         android:textAllCaps="true"
-                        app:layout_constraintEnd_toEndOf="@+id/textView6"
-                        app:layout_constraintStart_toStartOf="@+id/textView6"
-                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+                        app:layout_constraintEnd_toEndOf="@+id/textView9"
+                        app:layout_constraintStart_toStartOf="@+id/textView9"
+                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toStartOf="@+id/constraintLayout"
+                    app:layout_constraintHorizontal_bias="0.502"
                     app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
                     app:layout_constraintTop_toTopOf="@+id/constraintLayout">
 
@@ -85,14 +87,16 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/constraintLayout"
+                    android:id="@+id/constraintLayout2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
@@ -103,17 +107,83 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/textView10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dias"
+                        android:text="Semanas"
                         android:textAllCaps="true"
-                        app:layout_constraintEnd_toEndOf="@+id/textView9"
-                        app:layout_constraintStart_toStartOf="@+id/textView9"
-                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+                        app:layout_constraintEnd_toEndOf="@+id/textView6"
+                        app:layout_constraintStart_toStartOf="@+id/textView6"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desafios"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonNovo4"
+                        style="@style/ButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_button_background"
+                        android:onClick="onButtonClick"
+                        android:text="Parte Superior"
+                        app:backgroundTint="#00563F" />
+
+                    <Button
+                        android:id="@+id/buttonNovo5"
+                        style="@style/ButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_button_background"
+                        android:onClick="onButtonClick"
+                        android:text="Parte Inferior"
+                        app:backgroundTint="#00563F" />
+
+                    <Button
+                        android:id="@+id/buttonNovo6"
+                        style="@style/ButtonStyle"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_button_background"
+                        android:onClick="onButtonClick"
+                        android:text="Todo Corpo"
+                        app:backgroundTint="#00563F" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -143,6 +213,7 @@
                 android:background="@drawable/image_button_background"
                 android:onClick="onButtonClick"
                 android:text="AQUECIMENTO"
+                app:backgroundTint="#00563F"
                 tools:ignore="OnClick" />
 
             <Button
@@ -154,6 +225,7 @@
                 android:background="@drawable/image_button_background"
                 android:onClick="onButtonClick"
                 android:text="INICIANTE"
+                app:backgroundTint="#00563F"
                 tools:ignore="OnClick" />
 
             <Button
@@ -165,6 +237,7 @@
                 android:background="@drawable/image_button_background"
                 android:onClick="onButtonClick"
                 android:text="INTERMEDIÁRIO"
+                app:backgroundTint="#00563F"
                 tools:ignore="OnClick" />
 
             <Button
@@ -176,30 +249,11 @@
                 android:background="@drawable/image_button_background"
                 android:onClick="onButtonClick"
                 android:text="AVANÇADO"
+                app:backgroundTint="#00563F"
                 tools:ignore="OnClick" />
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
 
-                <HorizontalScrollView
-                    android:layout_width="404dp"
-                    android:layout_height="match_parent">
-
-
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="100dp"
-                        android:layout_height="90dp"
-                        android:text="Button" />
-
-
-                </HorizontalScrollView>
-
-
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

@@ -7,7 +7,7 @@ import jakarta.mail.internet.MimeMessage;
 import jakarta.websocket.Session;
 import org.apache.logging.log4j.message.Message;
 import pt.iade.fitme.enums.gender;
-import pt.iade.fitme.models.user;
+import pt.iade.fitme.models.Usuario;
 
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
@@ -18,25 +18,25 @@ import java.util.Properties;
 public class UserService {
 
     // Dummy database for demonstration
-    private static List<user> usersDatabase = new ArrayList<>();
+    private static List<Usuario> usersDatabase = new ArrayList<>();
 
     public boolean registerUser(String name, String email, String password, gender gender, double height, double weight, String birthDate) {
         // Check if the user already exists
-        for (pt.iade.fitme.models.user user : usersDatabase) {
+        for (Usuario user : usersDatabase) {
             if (user.getEmail().equals(email)) {
                 return false; // User already exists
             }
         }
 
         // If the user doesn't exist, create and add to the database
-        user newUser = new user(name, email, password, gender, height, weight, birthDate);
+        Usuario newUser = new Usuario(name, email, password, gender, height, weight, birthDate);
         usersDatabase.add(newUser);
         return true; // Registration successful
     }
 
     public boolean loginUser(String email, String password) {
         // Check if the user exists and the password is correct
-        for (user user : usersDatabase) {
+        for (Usuario user : usersDatabase) {
             if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
                 return true; // Login successful
             }
@@ -86,8 +86,8 @@ public class UserService {
         }
     }
 
-    private user getUserByEmail(String email) {
-        for (user user : usersDatabase) {
+    private Usuario getUserByEmail(String email) {
+        for (Usuario user : usersDatabase) {
             if (user.getEmail().equals(email)) {
                 return user; // Retorna o usuário correspondente
             }

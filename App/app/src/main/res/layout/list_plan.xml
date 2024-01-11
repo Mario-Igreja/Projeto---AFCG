@@ -1,69 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<!-- res/layout/widget_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textUsedDays"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp"
-        tools:ignore="MissingConstraints">
+        android:text="Dias Usados: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/buttonLayoutCaminhada"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/image_button_background"
-            android:clickable="true"
-            android:focusable="true">
+    <TextView
+        android:id="@+id/textUnusedDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dias Não Usados: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
 
-            <TextView
-                android:id="@+id/title_text"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <TextView
-                android:id="@+id/content_text"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="16sp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/title_text"/>
-
-            <!-- Data de Criação da Nota -->
-            <TextView
-                android:id="@+id/creation_date_text"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:textSize="14sp"
-                android:textColor="@android:color/darker_gray"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/content_text"/>
-
-            <!-- Data da Última Modificação da Nota -->
-            <TextView
-                android:id="@+id/modified_date_text"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="14sp"
-                app:layout_constraintEnd_toEndOf="@+id/title_text"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/creation_date_text" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

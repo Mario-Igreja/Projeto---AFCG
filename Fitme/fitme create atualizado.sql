@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `fitme`.`tipo_exercicio` (
   `tipex_nome` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`tipex_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 11
+AUTO_INCREMENT = 1
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS `fitme`.`exercicios` (
     FOREIGN KEY (`exe_tipex_id`)
     REFERENCES `fitme`.`tipo_exercicio` (`tipex_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 84
+AUTO_INCREMENT = 1
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `fitme`.`usuario` (
   `usuariocol` VARCHAR(45) NULL DEFAULT NULL,
   PRIMARY KEY (`usu_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 2
+AUTO_INCREMENT = 1
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
@@ -113,7 +113,7 @@ CREATE TABLE IF NOT EXISTS `fitme`.`tipo_refeicao` (
   `tipref_nome` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`tipref_id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 9
+AUTO_INCREMENT = 1
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `fitme`.`receita` (
     ON DELETE RESTRICT
     ON UPDATE CASCADE)
 ENGINE = InnoDB
-AUTO_INCREMENT = 63
+AUTO_INCREMENT = 1
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
 
