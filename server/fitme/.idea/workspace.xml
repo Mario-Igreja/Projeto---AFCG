@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a92c20f-d1dc-4825-b67e-9143563523ed" name="Changes" comment="&quot;Update&quot;">
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/FitmeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/Service/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/Service/MainService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/Service/emailservice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/Service/service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/Service/userservice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/controllers/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/controllers/ExerciseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/controllers/emalicontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/controllers/usercontroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/enums/gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Dado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Exercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Plano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/PlanoUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Receita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/ReceitaPlano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Repository/DadosRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Responses/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Sessao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/SessaoExercicios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/SessaoExerciciosUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/TipoExercicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/TipoRefeicao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pt/iade/fitme/models/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webserverappliacation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pt/iade/fitme/FitmeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_124858_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_124923_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_124947_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_125013_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_125033_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_125107_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_125127_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144540_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144608_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144630_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144651_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144720_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144750_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_144811_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153517_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153540_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153603_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153621_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153658_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153717_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153755_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153820_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153837_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153855_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153916_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153936_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_153956_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154013_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154030_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154048_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154108_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154130_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154148_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154206_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154223_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154241_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154308_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154351_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_154415_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_163312_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_165701_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_165742_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_165807_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_165828_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_165955_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170038_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170157_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170228_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170245_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170305_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170324_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170345_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170405_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170521_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170542_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170612_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170634_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170652_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170708_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170725_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170743_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170758_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170817_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170836_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170856_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170915_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170935_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_170956_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_171015_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_171033_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_171131_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_175718_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_175734_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_175751_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_175815_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240102_175842_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025534_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025552_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025614_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025632_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025653_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025713_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025744_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025802_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025830_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025848_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025905_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025932_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_025955_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030022_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030047_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030105_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030147_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030233_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030304_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030328_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030406_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030444_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030506_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030542_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030617_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030643_Home Workout.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workout/Screen_Recording_20240103_030705_Home Workout.mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2amwVdAj41HUWmcZwr6clOb3tSm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/georg/Documents/PROJETO/Projeto---AFCG/webserver/fitme",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt.iade.fitme" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a92c20f-d1dc-4825-b67e-9143563523ed" name="Changes" comment="" />
+      <created>1704937092031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704937092031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Update&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Update&quot;" />
+  </component>
+</project>
