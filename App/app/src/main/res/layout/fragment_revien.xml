@@ -124,14 +124,44 @@
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Vegetais"
+                    android:text="Outros"
                     android:textAllCaps="true"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:id="@+id/buttonRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progresso"
+                android:layout_below="@id/textView13"
+                android:layout_marginTop="16dp"
+                app:backgroundTint="#00563F"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/buttonGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dados Pessoais"
+                android:layout_below="@id/buttonRed"
+                android:layout_marginTop="16dp"
+                app:backgroundTint="#00563F"
+                android:onClick="onButtonClick"/>
+
+            <Button
+                android:id="@+id/buttonBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horas de Sono"
+                android:layout_below="@id/buttonGreen"
+                android:layout_marginTop="16dp"
+                app:backgroundTint="#00563F"
+                android:onClick="onButtonClick"/>
 
 
 
@@ -139,4 +169,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </FrameLayout>

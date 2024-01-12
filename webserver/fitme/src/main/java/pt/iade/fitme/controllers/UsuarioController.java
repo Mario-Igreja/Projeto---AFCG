@@ -1,31 +1,31 @@
 package pt.iade.fitme.controllers;
 
 
-import pt.iade.fitme.enums.gender;
-import pt.iade.fitme.Service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import pt.iade.fitme.models.Usuario;
+import pt.iade.fitme.models.repositories.UsuarioRepository;
+
+
+@RestController
+@RequestMapping(path = "/api/usuario")
 // UserController.java
 public class UsuarioController {
-    private pt.iade.fitme.Service.UserService userservice;
+private Logger logger =  LoggerFactory.getLogger(UsuarioController.class);
+    @Autowired
+    private UsuarioRepository usuarioRepository;
 
-    public UsuarioController() {
-        this.userservice = new UserService();
+    @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Iterable<Usuario> getAll() {
+        logger.info("Sending all users");
+        return usuarioRepository.findAll();
     }
 
-    // Register endpoint
-    public boolean registerUser(String name, String email, String password, gender gender, double height, double weight, String birthDate) {
-        boolean isRegistered = userservice.registerUser(name, email, password, gender, height, weight, birthDate);
 
-        if (isRegistered) {
-            // Se o registro for bem-sucedido, envie o código de verificação por e-mail
-            userservice.sendVerificationCode(email);
-        }
-
-        return isRegistered;
-
-        // Login endpoint
-        public boolean loginUser (String email, String password){
-            return userservice.loginUser(email, password);
-        }
-    }
 }

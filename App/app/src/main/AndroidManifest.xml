@@ -23,10 +23,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FitVida"
-        tools:targetApi="31">
-
-
-
+        tools:targetApi="31"
+        tools:ignore="ExtraText">
+        <activity
+            android:name="pt.iade.FitVida.Register_unique"
+            android:exported="false"/>
         <activity
             android:name="pt.iade.FitVida.fragment_review"
             android:exported="false" />

@@ -278,7 +278,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/image_button_background"
                         android:onClick="onButtonClick"
-                        android:text="Novo Botão 1"
+                        android:text="Ganhar Peso"
                         app:backgroundTint="#00563F" />
 
                     <Button
@@ -290,7 +290,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/image_button_background"
                         android:onClick="onButtonClick"
-                        android:text="Novo Botão 2"
+                        android:text="Perder Peso"
                         app:backgroundTint="#00563F" />
 
                     <Button
@@ -301,7 +301,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/image_button_background"
                         android:onClick="onButtonClick"
-                        android:text="Novo Botão 3"
+                        android:text="Outra receita"
                         app:backgroundTint="#00563F" />
                 </LinearLayout>
             </HorizontalScrollView>
